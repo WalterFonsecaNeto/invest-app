@@ -1,8 +1,18 @@
-.App {
+.container_total {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #aaaaaa;
   gap: 40px;
+}
+
+
+
+@media screen and (max-width: 420px) {
+  .container_total {
+    height: auto;
+    padding: 40px;
+  }
 }

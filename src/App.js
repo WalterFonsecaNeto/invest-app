@@ -1,15 +1,14 @@
-
-import './App.css';
-import CardBTC from './components/CardBTC';
-import CardETH from './components/CardETH';
-import CardUSD from './components/CardUSD';
+import "./App.css";
+import CardBTC from "./components/CardBTC";
+import CardETH from "./components/CardETH";
+import CardUSD from "./components/CardUSD";
 
 function App() {
   return (
-    <div className="App">
-      <CardBTC/>
-      <CardETH/>
-      <CardUSD/>
+    <div className="container_total">
+        <CardBTC />
+        <CardETH />
+        <CardUSD />
     </div>
   );
 }
