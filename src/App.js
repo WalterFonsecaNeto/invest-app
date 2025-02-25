@@ -1,4 +1,6 @@
 import "./App.css";
+import React from 'react';
+
 import CardBTC from "./components/CardBTC";
 import CardDOGE from "./components/CardDOGE";
 import CardETH from "./components/CardETH";
